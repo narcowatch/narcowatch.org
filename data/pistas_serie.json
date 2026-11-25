@@ -1,0 +1,58 @@
+[
+ {
+  "pais": "Honduras",
+  "pais_en": "Honduras",
+  "anio": 2021,
+  "pistas": 25,
+  "parcial": false
+ },
+ {
+  "pais": "Honduras",
+  "pais_en": "Honduras",
+  "anio": 2022,
+  "pistas": 9,
+  "parcial": false
+ },
+ {
+  "pais": "Honduras",
+  "pais_en": "Honduras",
+  "anio": 2023,
+  "pistas": 8,
+  "parcial": false
+ },
+ {
+  "pais": "Honduras",
+  "pais_en": "Honduras",
+  "anio": 2024,
+  "pistas": 2,
+  "parcial": true
+ },
+ {
+  "pais": "Guatemala",
+  "pais_en": "Guatemala",
+  "anio": 2021,
+  "pistas": 22,
+  "parcial": false
+ },
+ {
+  "pais": "Guatemala",
+  "pais_en": "Guatemala",
+  "anio": 2022,
+  "pistas": 15,
+  "parcial": false
+ },
+ {
+  "pais": "Guatemala",
+  "pais_en": "Guatemala",
+  "anio": 2023,
+  "pistas": 12,
+  "parcial": false
+ },
+ {
+  "pais": "Guatemala",
+  "pais_en": "Guatemala",
+  "anio": 2024,
+  "pistas": 1,
+  "parcial": true
+ }
+]

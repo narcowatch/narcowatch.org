@@ -1,0 +1,93 @@
+[
+ {
+  "id": "D1",
+  "fecha": "2025-09-02",
+  "orden": 1,
+  "actor_es": "Operativo EE.UU.",
+  "actor_en": "US operation",
+  "hecho_es": "Primer ataque de EE.UU. contra una lancha en el Caribe (inicio de Southern Spear)",
+  "hecho_en": "First US strike on a boat in the Caribbean (start of Southern Spear)",
+  "efecto_es": "Las fuentes registran rutas desviadas hacia el este, Guyana, Surinam y Brasil",
+  "efecto_en": "Sources record routes diverted east: Guyana, Suriname and Brazil",
+  "fuente": "InSight Crime",
+  "url": "https://insightcrime.org/investigations/why-cocaine-keeps-flowing-through-caribbean-visual-guide/"
+ },
+ {
+  "id": "D2",
+  "fecha": "2025-10-21",
+  "orden": 2,
+  "actor_es": "Operativo EE.UU.",
+  "actor_en": "US operation",
+  "hecho_es": "Los ataques contra lanchas se extienden al Pacífico",
+  "hecho_en": "Boat strikes extend to the Pacific",
+  "efecto_es": "Presión sobre las dos rutas marítimas principales a la vez",
+  "efecto_en": "Pressure on both main maritime routes at once",
+  "fuente": "PBS",
+  "url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-strikes-on-boats-off-south-america-and-what-congress-has-said"
+ },
+ {
+  "id": "D3",
+  "fecha": "2025-11-12",
+  "orden": 3,
+  "actor_es": "Respuesta de Brasil",
+  "actor_en": "Brazil response",
+  "hecho_es": "La Policía Federal desarticula una red aérea Roraima–Venezuela–Guyana–Surinam (Operação 14 BIS)",
+  "hecho_en": "Federal Police dismantle a Roraima–Venezuela–Guyana–Suriname air network (Operation 14 BIS)",
+  "efecto_es": "Confirma un corredor aéreo activo por el norte de Brasil",
+  "efecto_en": "Confirms an active air corridor across northern Brazil",
+  "fuente": "Portal Norte",
+  "url": "https://portalnorte.com.br/noticias/roraima/2025/11/12/pf-prende-grupo-que-usava-avioes-para-trazer-drogas-ao-brasil/"
+ },
+ {
+  "id": "D4",
+  "fecha": "2026-01-03",
+  "orden": 4,
+  "actor_es": "Operativo EE.UU.",
+  "actor_en": "US operation",
+  "hecho_es": "Operación de EE.UU. en Venezuela y captura de Maduro",
+  "hecho_en": "US operation in Venezuela and capture of Maduro",
+  "efecto_es": "Guyana refuerza la frontera en la Región 1",
+  "efecto_en": "Guyana reinforces its border in Region 1",
+  "fuente": "Jamaica Observer",
+  "url": "https://www.jamaicaobserver.com/2026/01/19/guyana-strengthens-border-defences-following-us-invasion-venezuela/"
+ },
+ {
+  "id": "D5",
+  "fecha": "2026-05",
+  "orden": 5,
+  "actor_es": "Respuesta de Brasil",
+  "actor_en": "Brazil response",
+  "hecho_es": "La Fuerza Aérea intercepta en Roraima una aeronave llegada desde Venezuela",
+  "hecho_en": "The Air Force intercepts an aircraft from Venezuela in Roraima",
+  "efecto_es": "Los vuelos desde Venezuela siguen entrando por el norte de Brasil",
+  "efecto_en": "Flights from Venezuela keep entering northern Brazil",
+  "fuente": "FAB",
+  "url": "https://www.fab.mil.br/noticias/operacional/15485/2026/05/fab-intercepta-aeronave-oriunda-da-venezuela-que-transportava-drogas/"
+ },
+ {
+  "id": "D6",
+  "fecha": "2026-06-21",
+  "orden": 6,
+  "actor_es": "Operativo EE.UU.",
+  "actor_en": "US operation",
+  "hecho_es": "Ya son 66 ataques contra embarcaciones en el Caribe y el Pacífico",
+  "hecho_en": "66 strikes on vessels in the Caribbean and Pacific so far",
+  "efecto_es": "La presión sobre la vía marítima se mantiene",
+  "efecto_en": "Pressure on the maritime route continues",
+  "fuente": "Just Security",
+  "url": "https://www.justsecurity.org/124002/timeline-vessel-strikes-related-actions/"
+ },
+ {
+  "id": "D7",
+  "fecha": "2026-09",
+  "orden": 7,
+  "actor_es": "Análisis",
+  "actor_en": "Analysis",
+  "hecho_es": "GI-TOC documenta nuevos corredores por Roraima y por Amapá vía Surinam",
+  "hecho_en": "GI-TOC documents new corridors through Roraima and through Amapá via Suriname",
+  "efecto_es": "Brasil aparece como salida alternativa al Caribe",
+  "efecto_en": "Brazil emerges as an alternative outlet to the Caribbean",
+  "fuente": "GI-TOC",
+  "url": "https://globalinitiative.net/wp-content/uploads/2026/09/Gabriel-Funari-Brazilian-Amazon-New-trafficking-corridors-and-expanding-criminal-control-GI-TOC-September-2026-1.pdf"
+ }
+]

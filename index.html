@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NarcoWatch</title>
+<meta name="description" content="Observatorio independiente del narcotráfico en Centroamérica, el Caribe y Guyana, basado en fuentes abiertas. / Independent open-source observatory of drug trafficking in Central America, the Caribbean and Guyana.">
+<meta property="og:title" content="NarcoWatch">
+<meta property="og:description" content="Observatorio independiente del narcotráfico en Centroamérica, el Caribe y Guyana · Independent drug trafficking observatory for Central America, the Caribbean and Guyana">
+<meta property="og:url" content="https://narcowatch.org/">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://narcowatch.org/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top" aria-label="NarcoWatch">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 13h20M13 1.5c4 3.5 4 19.5 0 23M13 1.5c-4 3.5-4 19.5 0 23" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".55"/><circle cx="18" cy="9" r="2.4" fill="var(--accent)"/></svg>
+      <span>NarcoWatch</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#mapa" data-i18n="nav_map">Mapa</a>
+      <a href="#guyana">Guyana</a>
+      <a href="#globo" data-i18n="nav_balloon">Efecto globo</a>
+      <a href="#pistas" data-i18n="nav_strips">Pistas</a>
+      <a href="#operaciones" data-i18n="nav_ops">Operaciones</a>
+      <a href="#registro" data-i18n="nav_cases">Casos</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="eyebrow">Centroamérica · Caribe · Guyana · conexiones con Brasil</p>
+      <h1 data-i18n="title">Observatorio independiente del narcotráfico</h1>
+      <p class="lede" id="lede"></p>
+      <p class="meta"><span data-i18n="updated">Actualizado</span> <b id="updated">—</b> · <span data-i18n="independent">Independiente y no oficial. Solo fuentes abiertas.</span></p>
+    </div>
+  </section>
+
+  <div class="filters-bar">
+    <div class="wrap filters" role="group" aria-label="Filtros">
+      <div class="field">
+        <span class="lbl" data-i18n="f_mode">Vía</span>
+        <div class="chips" id="chips-modo">
+          <button type="button" data-modo="" aria-pressed="true" data-i18n="all_f">Todas</button>
+          <button type="button" data-modo="Aéreo" aria-pressed="false" data-i18n="m_air">Aérea</button>
+          <button type="button" data-modo="Marítimo" aria-pressed="false" data-i18n="m_sea">Marítima</button>
+          <button type="button" data-modo="Terrestre" aria-pressed="false" data-i18n="m_land">Terrestre</button>
+        </div>
+      </div>
+      <div class="field">
+        <label class="lbl" for="sel-pais" data-i18n="f_country">País</label>
+        <select id="sel-pais"></select>
+      </div>
+      <div class="field">
+        <label class="lbl" for="sel-anio" data-i18n="f_year">Año</label>
+        <select id="sel-anio"></select>
+      </div>
+      <button type="button" class="btn" id="btn-reset" data-i18n="reset">Quitar filtros</button>
+    </div>
+  </div>
+
+  <div class="wrap stack">
+    <section id="modalidades" class="sec">
+      <h2 data-i18n="h_modes">Casos registrados por vía de transporte</h2>
+      <div class="kpis" id="kpis"></div>
+      <p class="note" data-i18n="kpi_note">Suma de los casos documentados en este observatorio con los filtros elegidos, no el total nacional de incautaciones.</p>
+    </section>
+
+    <section id="mapa" class="sec">
+      <h2 data-i18n="h_map">Mapa de rutas y pistas</h2>
+      <div class="legend" id="legend"></div>
+      <div class="map" id="map"></div>
+      <p class="note" data-i18n="map_note">Esquema de las rutas que describen las fuentes, no trayectorias exactas. Toca una ruta o una ✕ para ver el detalle y la fuente.</p>
+    </section>
+
+    <section id="guyana" class="sec panel">
+      <p class="eyebrow" data-i18n="focus">Foco</p>
+      <h2 data-i18n="h_guyana">Guyana: el puente entre Venezuela, el Caribe y Europa</h2>
+      <div class="report" id="report"></div>
+      <div class="grid2">
+        <div class="sec">
+          <h3 data-i18n="h_guy_cases">Casos documentados</h3>
+          <p class="note" id="guy-sum"></p>
+          <ul class="timeline" id="guy-list"></ul>
+        </div>
+        <div class="sec">
+          <h3 data-i18n="h_canu">Balance acumulado de CANU en 2026</h3>
+          <p class="note" id="canu-note"></p>
+          <div class="chart" id="chart-canu"></div>
+        </div>
+      </div>
+      <div class="cols3">
+        <div><h3 data-i18n="m_air">Aérea</h3><p class="note" data-i18n="guy_air">Vuelos desde Colombia y Venezuela aterrizan en pistas ilegales del interior, sobre todo en la Región 1 (Barima-Waini) y el Esequibo. La droga se guarda en búnkeres en la selva.</p></div>
+        <div><h3 data-i18n="guy_sea_h">Marítima y fluvial</h3><p class="note" data-i18n="guy_sea">La ruta principal entra desde Delta Amacuro, en Venezuela. Desde la costa salen semisumergibles y buques de carga hacia Trinidad y Tobago, Europa y África Occidental.</p></div>
+        <div><h3 data-i18n="m_land">Terrestre</h3><p class="note" data-i18n="guy_land">La frontera con Venezuela es porosa y está en disputa. Hacia Brasil, el paso Bonfim–Lethem solo registra casos menores.</p></div>
+      </div>
+    </section>
+
+    <section id="globo" class="sec">
+      <p class="eyebrow" data-i18n="nav_balloon">Efecto globo</p>
+      <h2 data-i18n="h_balloon">Cuando se presiona Venezuela, la ruta se mueve hacia Guyana y Brasil</h2>
+      <p class="prose" data-i18n="balloon_intro">El efecto globo describe cómo la presión sobre una ruta empuja el tráfico hacia otra. Desde septiembre de 2025, los ataques de EE.UU. contra lanchas y la operación en Venezuela cerraron en parte la salida marítima del norte de Venezuela. Las fuentes registran que las redes se desplazaron hacia el este y el sur. Brasil se incluye solo cuando sus casos conectan con Colombia, Venezuela, Guyana, Surinam, el Caribe o Centroamérica.</p>
+      <ol class="flow">
+        <li><span class="step" data-i18n="b1k">Presión</span><b data-i18n="b1t">Caribe venezolano</b><span class="note" data-i18n="b1d">Ataques a lanchas, vigilancia de puertos y vuelos, operación de enero de 2026.</span></li>
+        <li><span class="step" data-i18n="b2k">Desvío</span><b data-i18n="b2t">Guyana y Surinam</b><span class="note" data-i18n="b2d">Más vuelos a pistas del interior y salida por la costa hacia Trinidad y Europa.</span></li>
+        <li><span class="step" data-i18n="b3k">Nuevo corredor</span><b data-i18n="b3t">Norte de Brasil</b><span class="note" data-i18n="b3d">Avionetas a Roraima, cruce por Pacaraima y reenvío por Amapá vía Surinam.</span></li>
+        <li><span class="step" data-i18n="b4k">Salida</span><b data-i18n="b4t">Atlántico</b><span class="note" data-i18n="b4d">Desde Brasil y Surinam hacia Europa y África Occidental.</span></li>
+      </ol>
+      <div class="grid2">
+        <div class="sec"><h3 data-i18n="h_decisions">Decisiones operativas y respuestas</h3><ul class="steps" id="decisions"></ul></div>
+        <div class="sec"><h3 data-i18n="h_brazil">Casos en Brasil conectados con la región</h3><ul class="timeline" id="bra-list"></ul>
+          <h3 data-i18n="h_signals">Señales a vigilar</h3>
+          <ul class="bullets">
+            <li data-i18n="s1">Más aeronaves interceptadas por la Fuerza Aérea de Brasil llegando desde Venezuela a Roraima.</li>
+            <li data-i18n="s2">Decomisos grandes en el paso Bonfim–Lethem, hoy solo con casos menores.</li>
+            <li data-i18n="s3">Envíos de Surinam hacia Amapá y salidas al Atlántico desde puertos del norte de Brasil.</li>
+            <li data-i18n="s4">Menos casos marítimos en la costa norte de Venezuela al mismo tiempo que suben los de Guyana y Brasil.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note warn" data-i18n="balloon_warn">Es una hipótesis de trabajo apoyada en fuentes, no una medición. Con tan pocos casos públicos no se puede calcular cuánto tráfico se desplazó.</p>
+    </section>
+
+    <div class="grid2">
+      <section id="tendencia" class="sec">
+        <h2 data-i18n="h_trend">Incautaciones nacionales de cocaína: penúltimo año contra último</h2>
+        <p class="note" data-i18n="trend_note">Toneladas por año, todas las vías juntas. Gris: año anterior; color: año más reciente.</p>
+        <div class="chart" id="chart-paises"></div>
+      </section>
+      <section id="serie-pistas" class="sec">
+        <h2 data-i18n="h_strip_series">Pistas destruidas en Honduras y Guatemala, 2021–2024</h2>
+        <p class="note" data-i18n="strip_series_note">Serie comparable. El tramo punteado de 2024 cubre solo enero a abril.</p>
+        <div class="chart" id="chart-pistas"></div>
+      </section>
+    </div>
+
+    <section id="pistas" class="sec">
+      <p class="eyebrow" data-i18n="m_air">Aérea</p>
+      <h2 data-i18n="h_strips">Pistas clandestinas destruidas o inutilizadas</h2>
+      <p class="prose" data-i18n="strips_intro">Cada país informa a su manera: totales del año, acumulados de un gobierno o balances de una operación. Por eso las cifras no se suman. Las pistas de minería ilegal en territorio yanomami (Brasil) se marcan aparte porque las fuentes no las vinculan con cocaína.</p>
+      <div class="cards" id="strip-cards"></div>
+      <div class="tablewrap"><table id="tbl-pistas"><thead><tr>
+        <th data-i18n="c_date">Fecha</th><th data-i18n="f_country">País</th><th data-i18n="c_zone">Zona</th><th class="num" data-i18n="c_strips">Pistas</th><th data-i18n="c_action">Acción</th><th data-i18n="c_period">Periodo</th><th data-i18n="c_agencies">Quién actuó</th><th data-i18n="c_reason">Motivo</th><th data-i18n="c_source">Fuente</th>
+      </tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="operaciones" class="sec">
+      <p class="eyebrow" data-i18n="nav_ops">Operaciones</p>
+      <h2 data-i18n="h_ops">Operaciones recientes contra el narcotráfico</h2>
+      <p class="prose" id="ops-sum"></p>
+      <ul class="ops" id="ops"></ul>
+      <p class="note" data-i18n="ops_note">No encontramos en fuentes abiertas los resultados de 2025 y 2026 de la campaña naval multinacional Orión. Las cifras de la FANB (Venezuela) son oficiales y no verificadas de forma independiente.</p>
+    </section>
+
+    <section id="analisis" class="sec">
+      <h2 data-i18n="h_analysis">Análisis y tendencias</h2>
+      <ul class="bullets findings">
+        <li data-i18n-html="a1"></li><li data-i18n-html="a2"></li><li data-i18n-html="a3"></li><li data-i18n-html="a4"></li><li data-i18n-html="a5"></li>
+      </ul>
+      <p class="note warn" data-i18n="analysis_warn">Las incautaciones miden la actividad policial tanto como el tráfico. Una caída puede venir de menos controles o de rutas nuevas.</p>
+    </section>
+
+    <section id="registro" class="sec">
+      <h2 data-i18n="h_cases">Registro de casos</h2>
+      <div class="tablewrap"><table id="tbl-casos"><thead><tr>
+        <th data-i18n="c_date">Fecha</th><th data-i18n="f_country">País</th><th data-i18n="f_mode">Vía</th><th data-i18n="c_case">Caso</th><th class="num">Kg</th><th data-i18n="c_source">Fuente</th>
+      </tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="metodologia" class="sec">
+      <details>
+        <summary data-i18n="h_method">Metodología, fuentes y limitaciones</summary>
+        <ul class="bullets" id="method"></ul>
+      </details>
+    </section>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><b>NarcoWatch</b> · <span data-i18n="foot1">Observatorio independiente, sin afiliación a ningún gobierno ni organismo oficial.</span></p>
+    <p class="note" data-i18n="foot2">La información proviene de fuentes abiertas citadas en cada dato. No publicamos datos personales de particulares. Mapa base: Natural Earth (dominio público). Gráficos: D3 (licencia ISC).</p>
+  </div>
+</footer>
+
+<div class="tt" id="tt" hidden></div>
+<script src="assets/d3.v7.9.0.min.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

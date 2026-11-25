@@ -1,0 +1,365 @@
+[
+ {
+  "id": "O01",
+  "fecha": "2026-11-21",
+  "orden": 20,
+  "nombre_es": "Operación Terra",
+  "nombre_en": "Operation Terra",
+  "paises": [
+   "Colombia",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "Policía Nacional de Colombia",
+   "DEA"
+  ],
+  "agencias_en": [
+   "Colombian National Police",
+   "DEA"
+  ],
+  "zona_es": "Dibulla (La Guajira) costa Caribe",
+  "zona_en": "Dibulla (La Guajira), Caribbean coast",
+  "modalidad": "Terrestre",
+  "res_es": "3 toneladas de cocaína del Clan del Golfo ocultas en una bodega junto al mar con destino a EE.UU.",
+  "res_en": "3 tonnes of Clan del Golfo cocaine hidden in a seaside warehouse bound for the US",
+  "kg": 3000,
+  "fuente": "Guajira News",
+  "url": "https://guajiranews.com/judiciales/incautan-tres-toneladas-de-cocaina-en-dibulla-durante-operacion-coordinada-entre-la-policia-y-la-dea/"
+ },
+ {
+  "id": "O02",
+  "fecha": "2026-11-20",
+  "orden": 19,
+  "nombre_es": "Decomiso en Tela",
+  "nombre_en": "Seizure in Tela",
+  "paises": [
+   "Honduras",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "Autoridades de Honduras",
+   "DEA"
+  ],
+  "agencias_en": [
+   "Honduran authorities",
+   "DEA"
+  ],
+  "zona_es": "Tela (Atlántida) costa Caribe",
+  "zona_en": "Tela (Atlántida), Caribbean coast",
+  "modalidad": "Sin precisar",
+  "res_es": "Más de media tonelada de cocaína; la DEA destacó la cooperación (otras fuentes dicen 557 kg)",
+  "res_en": "More than half a tonne of cocaine; DEA highlighted the cooperation (other sources say 557 kg)",
+  "kg": 500,
+  "fuente": "La Prensa",
+  "url": "https://www.laprensa.hn/honduras/dea-reconoce-cooperacion-honduras-decomiso-500-kilos-sustancias-GE32726033"
+ },
+ {
+  "id": "O03",
+  "fecha": "2026-10",
+  "orden": 18,
+  "nombre_es": "Erradicación de coca en Honduras",
+  "nombre_en": "Coca eradication in Honduras",
+  "paises": [
+   "Honduras"
+  ],
+  "agencias_es": [
+   "Fuerzas Armadas de Honduras"
+  ],
+  "agencias_en": [
+   "Honduran Armed Forces"
+  ],
+  "zona_es": "Colón y otros departamentos",
+  "zona_en": "Colón and other departments",
+  "modalidad": "Terrestre",
+  "res_es": "62 plantaciones con más de 950.000 arbustos de coca y 13 laboratorios artesanales destruidos en 2026",
+  "res_en": "62 plantations with more than 950,000 coca bushes and 13 makeshift labs destroyed in 2026",
+  "kg": null,
+  "fuente": "Infobae",
+  "url": "https://www.infobae.com/honduras/2026/10/12/fuerzas-armadas-de-honduras-aseguran-62-plantaciones-de-coca-y-mas-de-950-mil-arbustos-en-honduras-en-2026/"
+ },
+ {
+  "id": "O04",
+  "fecha": "2026-07",
+  "orden": 17,
+  "nombre_es": "Interdicción en el Pacífico",
+  "nombre_en": "Pacific interdiction",
+  "paises": [
+   "Ecuador",
+   "Colombia",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "JIATF-Sur",
+   "Armada del Ecuador",
+   "Armada de Colombia",
+   "DEA"
+  ],
+  "agencias_en": [
+   "JIATF-South",
+   "Ecuadorian Navy",
+   "Colombian Navy",
+   "DEA"
+  ],
+  "zona_es": "Pacífico oriental rumbo a México",
+  "zona_en": "Eastern Pacific bound for Mexico",
+  "modalidad": "Marítimo",
+  "res_es": "Dos lanchas rápidas detectadas por un avión de patrulla de SOUTHCOM; la mayor incautación marítima del año en Ecuador",
+  "res_en": "Two go-fast boats detected by a SOUTHCOM patrol aircraft; the largest maritime seizure of the year in Ecuador",
+  "kg": 2728,
+  "fuente": "CiberCuba",
+  "url": "https://en.cibercuba.com/noticias/2026-07-23-u1-e208574-s27061-nid335906-coalicion-internacional-intercepta-casi-tres"
+ },
+ {
+  "id": "O05",
+  "fecha": "2026-07",
+  "orden": 16,
+  "nombre_es": "Operaciones frente a Costa Rica",
+  "nombre_en": "Operations off Costa Rica",
+  "paises": [
+   "Costa Rica",
+   "Colombia",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "Guardacostas de Costa Rica",
+   "Armada de Colombia",
+   "JIATF-Sur"
+  ],
+  "agencias_en": [
+   "Costa Rica Coast Guard",
+   "Colombian Navy",
+   "JIATF-South"
+  ],
+  "zona_es": "Golfito y Cabo Blanco (Pacífico)",
+  "zona_en": "Golfito and Cabo Blanco (Pacific)",
+  "modalidad": "Marítimo",
+  "res_es": "Cooperación trinacional; Costa Rica multiplicó sus decomisos en 2026",
+  "res_en": "Three-nation cooperation; Costa Rica multiplied its seizures in 2026",
+  "kg": 2650,
+  "fuente": "The Epoch Times",
+  "url": "https://www.theepochtimes.com/us/colombia-costa-rica-partner-with-us-to-seize-2-65-tons-of-cocaine-6073636"
+ },
+ {
+  "id": "O06",
+  "fecha": "2026",
+  "orden": 15,
+  "nombre_es": "Operación en el Caribe",
+  "nombre_en": "Caribbean operation",
+  "paises": [
+   "República Dominicana",
+   "Países Bajos",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "Armada de República Dominicana",
+   "Marina de los Países Bajos",
+   "JIATF-Sur"
+  ],
+  "agencias_en": [
+   "Dominican Navy",
+   "Royal Netherlands Navy",
+   "JIATF-South"
+  ],
+  "zona_es": "Caribe",
+  "zona_en": "Caribbean",
+  "modalidad": "Marítimo",
+  "res_es": "Operación coordinada contra redes de narcotráfico",
+  "res_en": "Coordinated operation against trafficking networks",
+  "kg": 587,
+  "fuente": "Asianet Newsable",
+  "url": "https://newsable.asianetnews.com/world/us-partners-seize-587kg-cocaine-disrupt-narco-terrorist-networks-articleshow-t5zh7ft"
+ },
+ {
+  "id": "O07",
+  "fecha": "2026-06-21",
+  "orden": 14,
+  "nombre_es": "Operación Southern Spear (balance)",
+  "nombre_en": "Operation Southern Spear (tally)",
+  "paises": [
+   "EE.UU.",
+   "Venezuela",
+   "Colombia"
+  ],
+  "agencias_es": [
+   "Comando Sur de EE.UU.",
+   "Joint Task Force Southern Spear"
+  ],
+  "agencias_en": [
+   "US Southern Command",
+   "Joint Task Force Southern Spear"
+  ],
+  "zona_es": "Caribe y Pacífico",
+  "zona_en": "Caribbean and Pacific",
+  "modalidad": "Marítimo",
+  "res_es": "66 ataques contra embarcaciones con 215 muertos y 9 sobrevivientes desde septiembre de 2025; sin cifras de droga",
+  "res_en": "66 strikes on vessels with 215 dead and 9 survivors since September 2025; no drug figures",
+  "kg": null,
+  "fuente": "Just Security",
+  "url": "https://www.justsecurity.org/124002/timeline-vessel-strikes-related-actions/"
+ },
+ {
+  "id": "O08",
+  "fecha": "2026-04-17",
+  "orden": 13,
+  "nombre_es": "Interdicción frente a Pedernales",
+  "nombre_en": "Interdiction off Pedernales",
+  "paises": [
+   "República Dominicana",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "DNCD",
+   "Armada de República Dominicana",
+   "JIATF-Sur",
+   "DEA"
+  ],
+  "agencias_en": [
+   "DNCD",
+   "Dominican Navy",
+   "JIATF-South",
+   "DEA"
+  ],
+  "zona_es": "Pedernales (sur de La Española)",
+  "zona_en": "Pedernales (southern Hispaniola)",
+  "modalidad": "Marítimo",
+  "res_es": "Lancha interceptada; peso confirmado por el INACIF y ocho detenidos después",
+  "res_en": "Boat intercepted; weight confirmed by INACIF and eight people detained later",
+  "kg": 1708,
+  "fuente": "DEA",
+  "url": "https://www.dea.gov/press-releases/2026/04/24/dea-part-historic-cocaine-seizure-dominican-republic"
+ },
+ {
+  "id": "O09",
+  "fecha": "2026-04-10",
+  "orden": 12,
+  "nombre_es": "Interceptación de avioneta en Belice",
+  "nombre_en": "Aircraft interception in Belize",
+  "paises": [
+   "Belice",
+   "EE.UU."
+  ],
+  "agencias_es": [
+   "Centro Conjunto de Inteligencia (JIOC)",
+   "Policía de Belice",
+   "Fuerza de Defensa de Belice",
+   "Guardacostas",
+   "Aduanas",
+   "JIATF-Sur"
+  ],
+  "agencias_en": [
+   "Joint Intelligence Operations Centre (JIOC)",
+   "Belize Police",
+   "Belize Defence Force",
+   "Coast Guard",
+   "Customs",
+   "JIATF-South"
+  ],
+  "zona_es": "Norte de Belice",
+  "zona_en": "Northern Belize",
+  "modalidad": "Aéreo",
+  "res_es": "Operación en tres fases con vigilancia de pistas conocidas y clandestinas; Cessna asegurada y cuatro detenidos",
+  "res_en": "Three-phase operation watching known and clandestine landing sites; Cessna seized and four detained",
+  "kg": 551,
+  "fuente": "Jamaica Observer",
+  "url": "https://www.jamaicaobserver.com/2026/04/13/law-enforcement-authorities-belize-seize-plane-drugs-major-operation/"
+ },
+ {
+  "id": "O10",
+  "fecha": "2026-03-27",
+  "orden": 11,
+  "nombre_es": "Derribo de aeronave en Apure",
+  "nombre_en": "Aircraft downed in Apure",
+  "paises": [
+   "Venezuela"
+  ],
+  "agencias_es": [
+   "FANB"
+  ],
+  "agencias_en": [
+   "FANB"
+  ],
+  "zona_es": "Apure",
+  "zona_en": "Apure",
+  "modalidad": "Aéreo",
+  "res_es": "Aeronave no autorizada derribada durante un operativo antidrogas",
+  "res_en": "Unauthorized aircraft shot down during a counter-drug operation",
+  "kg": null,
+  "fuente": "El Diario",
+  "url": "https://eldiario.com/2026/03/27/fanb-derribo-aeronave-no-autorizada-en-apure/"
+ },
+ {
+  "id": "O11",
+  "fecha": "2026",
+  "orden": 10,
+  "nombre_es": "Relámpago del Catatumbo",
+  "nombre_en": "Relámpago del Catatumbo",
+  "paises": [
+   "Venezuela"
+  ],
+  "agencias_es": [
+   "FANB"
+  ],
+  "agencias_en": [
+   "FANB"
+  ],
+  "zona_es": "Zulia y Táchira (frontera con Colombia)",
+  "zona_en": "Zulia and Táchira (Colombian border)",
+  "modalidad": "Terrestre",
+  "res_es": "15 pistas neutralizadas; 8 campamentos destruidos y 298 detenidos según la FANB",
+  "res_en": "15 strips neutralized; 8 camps destroyed and 298 detained according to FANB",
+  "kg": null,
+  "fuente": "Misión Verdad",
+  "url": "https://www.misionverdad.com/venezuela/fanb-neutraliza-conspiraciones-y-zonas-grises-en-la-frontera-occidental"
+ },
+ {
+  "id": "O12",
+  "fecha": "2026-03",
+  "orden": 9,
+  "nombre_es": "Interceptación en Treasure Beach",
+  "nombre_en": "Treasure Beach interception",
+  "paises": [
+   "Jamaica"
+  ],
+  "agencias_es": [
+   "Fuerza de Defensa de Jamaica (Guardia Costera)"
+  ],
+  "agencias_en": [
+   "Jamaica Defence Force (Coast Guard)"
+  ],
+  "zona_es": "St Elizabeth",
+  "zona_en": "St Elizabeth",
+  "modalidad": "Marítimo",
+  "res_es": "Lancha rápida con más de 2.500 kg y tres detenidos",
+  "res_en": "Go-fast boat with more than 2,500 kg and three detained",
+  "kg": 2500,
+  "fuente": "Jamaica Gleaner",
+  "url": "https://jamaica-gleaner.com/article/news/20260322/three-arrested-jdf-seizes-massive-cocaine-shipment-offshore-treasure-beach-st"
+ },
+ {
+  "id": "O13",
+  "fecha": "2025-11-12",
+  "orden": 8,
+  "nombre_es": "Operação 14 BIS",
+  "nombre_en": "Operation 14 BIS",
+  "paises": [
+   "Brasil",
+   "Venezuela",
+   "Guyana",
+   "Surinam"
+  ],
+  "agencias_es": [
+   "Policía Federal de Brasil"
+  ],
+  "agencias_en": [
+   "Brazilian Federal Police"
+  ],
+  "zona_es": "Roraima",
+  "zona_en": "Roraima",
+  "modalidad": "Aéreo",
+  "res_es": "Red de avionetas desarticulada; 1.382 kg de cocaína y 7.700 kg de skunk incautados en la investigación",
+  "res_en": "Small-plane network dismantled; 1,382 kg of cocaine and 7,700 kg of skunk seized during the investigation",
+  "kg": 1382,
+  "fuente": "Portal Norte",
+  "url": "https://portalnorte.com.br/noticias/roraima/2025/11/12/pf-prende-grupo-que-usava-avioes-para-trazer-drogas-ao-brasil/"
+ }
+]

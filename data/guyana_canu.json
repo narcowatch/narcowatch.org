@@ -1,0 +1,29 @@
+[
+ {
+  "orden": 1,
+  "periodo_es": "Ene–mar 2026",
+  "periodo_en": "Jan–Mar 2026",
+  "narcoticos_kg": 371.24,
+  "cocaina_kg": 113.01,
+  "fuente": "CNW Network",
+  "url": "https://www.caribbeannationalweekly.com/news/guyana-seizes-over-370kg-of-narcotics-in-first-quarter-of-2026/"
+ },
+ {
+  "orden": 2,
+  "periodo_es": "Ene–jun 2026",
+  "periodo_en": "Jan–Jun 2026",
+  "narcoticos_kg": 519.49,
+  "cocaina_kg": null,
+  "fuente": "INews Guyana",
+  "url": "https://inewsguyana.com/over-519kg-narcotics-35-illegal-guns-699-ammo-seized-in-1st-half-of-2026-canu/"
+ },
+ {
+  "orden": 3,
+  "periodo_es": "Ene–ago 2026",
+  "periodo_en": "Jan–Aug 2026",
+  "narcoticos_kg": 673,
+  "cocaina_kg": null,
+  "fuente": "HGPTV",
+  "url": "https://www.hgptv.com/canu-seizes-673kg-of-narcotics-and-46-firearms-so-far-this-year/"
+ }
+]

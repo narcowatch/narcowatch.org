@@ -1,0 +1,481 @@
+[
+ {
+  "id": "R01",
+  "o_es": "Venezuela (Apure)",
+  "o_en": "Venezuela (Apure)",
+  "d_es": "La Mosquitia (Honduras)",
+  "d_en": "La Mosquitia (Honduras)",
+  "o_lat": 7,
+  "o_lon": -69,
+  "d_lat": 15.3,
+  "d_lon": -84.3,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "Honduras"
+  ],
+  "estado": {
+   "es": "En declive",
+   "en": "Declining"
+  },
+  "desc_es": "Narcovuelos a pistas clandestinas; muy pocas pistas halladas desde 2022",
+  "desc_en": "Drug flights to clandestine strips; very few strips found since 2022",
+  "declive": true,
+  "fuente": "InSight Crime",
+  "url": "https://insightcrime.org/news/central-ameria-drug-flights-fall/"
+ },
+ {
+  "id": "R02",
+  "o_es": "Venezuela (Apure)",
+  "o_en": "Venezuela (Apure)",
+  "d_es": "Petén (Guatemala)",
+  "d_en": "Petén (Guatemala)",
+  "o_lat": 7,
+  "o_lon": -69,
+  "d_lat": 16.9,
+  "d_lon": -90,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "Guatemala"
+  ],
+  "estado": {
+   "es": "En declive",
+   "en": "Declining"
+  },
+  "desc_es": "Sin cocaína incautada por vía aérea en 2024",
+  "desc_en": "No cocaine seized from air routes in 2024",
+  "declive": true,
+  "fuente": "InSight Crime",
+  "url": "https://insightcrime.org/news/central-ameria-drug-flights-fall/"
+ },
+ {
+  "id": "R03",
+  "o_es": "Venezuela (Apure)",
+  "o_en": "Venezuela (Apure)",
+  "d_es": "Chiapas (México)",
+  "d_en": "Chiapas (Mexico)",
+  "o_lat": 7,
+  "o_lon": -69,
+  "d_lat": 16.5,
+  "d_lon": -93,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "México"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Vuelos directos a México sin aterrizar en Centroamérica",
+  "desc_en": "Direct flights to Mexico without landing in Central America",
+  "declive": false,
+  "fuente": "Milenio",
+  "url": "https://www.milenio.com/policia/colombia-narco-ya-vuela-a-mexico-sin-cruzar-centroamerica"
+ },
+ {
+  "id": "R04",
+  "o_es": "Venezuela (Apure)",
+  "o_en": "Venezuela (Apure)",
+  "d_es": "Región 1 Barima-Waini (Guyana)",
+  "d_en": "Region 1 Barima-Waini (Guyana)",
+  "o_lat": 7,
+  "o_lon": -69,
+  "d_lat": 7.5,
+  "d_lon": -60.2,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "Guyana"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Aterrizajes en pistas ilegales y búnkeres en la selva",
+  "desc_en": "Landings on illegal strips and jungle bunkers",
+  "declive": false,
+  "fuente": "OFAC",
+  "url": "https://ofac.treasury.gov/media/934316/download"
+ },
+ {
+  "id": "R05",
+  "o_es": "Venezuela (Apure)",
+  "o_en": "Venezuela (Apure)",
+  "d_es": "Norte de Belice",
+  "d_en": "Northern Belize",
+  "o_lat": 7,
+  "o_lon": -69,
+  "d_lat": 18.1,
+  "d_lon": -88.6,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "Belice"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Avioneta con cocaína interceptada en abril de 2026",
+  "desc_en": "Cocaine-laden aircraft intercepted in April 2026",
+  "declive": false,
+  "fuente": "Por Esto",
+  "url": "https://www.poresto.com/quintana-roo/sucesos/2026/4/11/belice-incauta-551-kilos-de-cocaina-cerca-de-quintana-roo-caen-dos-mexicanos-y-dos-belicenos.html"
+ },
+ {
+  "id": "R06",
+  "o_es": "Delta Amacuro (Venezuela)",
+  "o_en": "Delta Amacuro (Venezuela)",
+  "d_es": "Costa de Guyana",
+  "d_en": "Guyana coast",
+  "o_lat": 8.8,
+  "o_lon": -61.5,
+  "d_lat": 6.8,
+  "d_lon": -58.2,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Venezuela",
+   "Guyana"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Ruta principal de entrada a Guyana por ríos y costa",
+  "desc_en": "Main entry route into Guyana via rivers and coast",
+  "declive": false,
+  "fuente": "InSight Crime",
+  "url": "https://insightcrime.org/investigations/drug-trafficking-disputed-essequibo/"
+ },
+ {
+  "id": "R07",
+  "o_es": "Costa de Guyana",
+  "o_en": "Guyana coast",
+  "d_es": "Trinidad y Tobago",
+  "d_en": "Trinidad and Tobago",
+  "o_lat": 6.8,
+  "o_lon": -58.2,
+  "d_lat": 10.6,
+  "d_lon": -61.3,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Guyana",
+   "Trinidad y Tobago"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Buques de carga salidos de Guyana",
+  "desc_en": "Cargo vessels departing Guyana",
+  "declive": false,
+  "fuente": "Newsroom Guyana",
+  "url": "https://newsroom.gy/2025/04/23/historic-drug-seizures-signal-strengthened-us-guyana-security-partnership-state-dept-report/"
+ },
+ {
+  "id": "R08",
+  "o_es": "Costa de Guyana",
+  "o_en": "Guyana coast",
+  "d_es": "Europa y África Occidental",
+  "d_en": "Europe and West Africa",
+  "o_lat": 6.8,
+  "o_lon": -58.2,
+  "d_lat": 13,
+  "d_lon": -50,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Guyana"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Guyana usada como puerta hacia Europa y África Occidental",
+  "desc_en": "Guyana used as a gateway to Europe and West Africa",
+  "declive": false,
+  "fuente": "Guyana Times",
+  "url": "https://guyanatimesgy.com/drug-cartels-target-guyana-as-cocaine-gateway-to-europe-north-america-west-africa-canu-head/"
+ },
+ {
+  "id": "R09",
+  "o_es": "Costa Pacífica de Colombia",
+  "o_en": "Colombian Pacific coast",
+  "d_es": "Panamá",
+  "d_en": "Panama",
+  "o_lat": 4,
+  "o_lon": -77.5,
+  "d_lat": 8.5,
+  "d_lon": -79.5,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Colombia",
+   "Panamá"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Remolcadores y lanchas hacia el norte",
+  "desc_en": "Tugboats and go-fast boats heading north",
+  "declive": false,
+  "fuente": "InSight Crime",
+  "url": "https://insightcrime.org/news/insight-crimes-2025-cocaine-seizure-round-up/"
+ },
+ {
+  "id": "R10",
+  "o_es": "Costa Caribe de Colombia",
+  "o_en": "Colombian Caribbean coast",
+  "d_es": "Haití y República Dominicana",
+  "d_en": "Haiti and Dominican Republic",
+  "o_lat": 11,
+  "o_lon": -74.8,
+  "d_lat": 18.5,
+  "d_lon": -72,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Colombia",
+   "Haití",
+   "República Dominicana"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Lanchas rápidas hacia La Española",
+  "desc_en": "Go-fast boats to Hispaniola",
+  "declive": false,
+  "fuente": "UNODC",
+  "url": "https://www.unodc.org/unodc/news/2025/December/record-cocaine-seizure-in-haitian-waters-underlines-countrys-pivotal-trafficking-role.html"
+ },
+ {
+  "id": "R11",
+  "o_es": "Costa Caribe de Colombia",
+  "o_en": "Colombian Caribbean coast",
+  "d_es": "Sur de Jamaica",
+  "d_en": "Southern Jamaica",
+  "o_lat": 11,
+  "o_lon": -74.8,
+  "d_lat": 17.9,
+  "d_lon": -77.7,
+  "modalidad": "Marítimo",
+  "paises": [
+   "Colombia",
+   "Jamaica"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Lanchas rápidas y pesqueros hacia St Elizabeth",
+  "desc_en": "Go-fast and fishing boats to St Elizabeth",
+  "declive": false,
+  "fuente": "Jamaica Gleaner",
+  "url": "https://jamaica-gleaner.com/article/news/20260322/three-arrested-jdf-seizes-massive-cocaine-shipment-offshore-treasure-beach-st"
+ },
+ {
+  "id": "R12",
+  "o_es": "República Dominicana",
+  "o_en": "Dominican Republic",
+  "d_es": "Puerto Rico y EE.UU.",
+  "d_en": "Puerto Rico and US",
+  "o_lat": 18.5,
+  "o_lon": -69.9,
+  "d_lat": 18.4,
+  "d_lon": -66.1,
+  "modalidad": "Marítimo",
+  "paises": [
+   "República Dominicana"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Reenvío hacia Puerto Rico y el territorio de EE.UU.",
+  "desc_en": "Transshipment to Puerto Rico and US territory",
+  "declive": false,
+  "fuente": "BISI",
+  "url": "https://bisi.org.uk/reports/cocaines-caribbean-gateway-to-america"
+ },
+ {
+  "id": "R13",
+  "o_es": "Panamá (Chiriquí)",
+  "o_en": "Panama (Chiriquí)",
+  "d_es": "Costa Rica (zona sur)",
+  "d_en": "Costa Rica (south)",
+  "o_lat": 8.6,
+  "o_lon": -82.4,
+  "d_lat": 9.3,
+  "d_lon": -83.6,
+  "modalidad": "Terrestre",
+  "paises": [
+   "Panamá",
+   "Costa Rica"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Vehículos por el paso de Paso Canoas en la Panamericana",
+  "desc_en": "Vehicles through the Paso Canoas crossing on the Pan-American Highway",
+  "declive": false,
+  "fuente": "CRHoy",
+  "url": "https://crhoy.com/nacionales/decomisan-312-kilos-de-cocaina-en-la-frontera-sur/"
+ },
+ {
+  "id": "R14",
+  "o_es": "Venezuela (Bolívar)",
+  "o_en": "Venezuela (Bolívar)",
+  "d_es": "Región 1 (Guyana)",
+  "d_en": "Region 1 (Guyana)",
+  "o_lat": 6.5,
+  "o_lon": -61.8,
+  "d_lat": 7.3,
+  "d_lon": -60,
+  "modalidad": "Terrestre",
+  "paises": [
+   "Venezuela",
+   "Guyana"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Cruces por la frontera selvática y en disputa",
+  "desc_en": "Crossings over the disputed jungle border",
+  "declive": false,
+  "fuente": "Village Voice",
+  "url": "https://villagevoicenews.com/2025/11/08/we-cant-become-a-narco-state-caught-between-corruption-and-the-cartels-in-south-americas-new-drug-war/"
+ },
+ {
+  "id": "R15",
+  "o_es": "Venezuela y Colombia",
+  "o_en": "Venezuela and Colombia",
+  "d_es": "Boa Vista (Roraima)",
+  "d_en": "Boa Vista (Roraima)",
+  "o_lat": 6,
+  "o_lon": -67.5,
+  "d_lat": 2.8,
+  "d_lon": -60.7,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Venezuela",
+   "Colombia",
+   "Brasil"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Avionetas y helicópteros con cocaína hacia Boa Vista",
+  "desc_en": "Small planes and helicopters carrying cocaine to Boa Vista",
+  "declive": false,
+  "fuente": "GI-TOC",
+  "url": "https://globalinitiative.net/wp-content/uploads/2026/09/Gabriel-Funari-Brazilian-Amazon-New-trafficking-corridors-and-expanding-criminal-control-GI-TOC-September-2026-1.pdf"
+ },
+ {
+  "id": "R16",
+  "o_es": "Venezuela (Bolívar)",
+  "o_en": "Venezuela (Bolívar)",
+  "d_es": "Pacaraima (Roraima)",
+  "d_en": "Pacaraima (Roraima)",
+  "o_lat": 6.3,
+  "o_lon": -63.5,
+  "d_lat": 4.5,
+  "d_lon": -61.1,
+  "modalidad": "Terrestre",
+  "paises": [
+   "Colombia",
+   "Venezuela",
+   "Brasil"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Cocaína colombiana que cruza Venezuela y entra por la frontera de Roraima",
+  "desc_en": "Colombian cocaine crossing Venezuela into Roraima",
+  "declive": false,
+  "fuente": "Gazeta do Povo",
+  "url": "https://www.gazetadopovo.com.br/brasil/operacao-expoe-nucleo-politico-comando-vermelho-amazonas-consorcio-de-traficantes-rota-amazonica/"
+ },
+ {
+  "id": "R17",
+  "o_es": "Bonfim (Roraima)",
+  "o_en": "Bonfim (Roraima)",
+  "d_es": "Lethem (Guyana)",
+  "d_en": "Lethem (Guyana)",
+  "o_lat": 3.4,
+  "o_lon": -59.8,
+  "d_lat": 3.4,
+  "d_lon": -59.2,
+  "modalidad": "Terrestre",
+  "paises": [
+   "Brasil",
+   "Guyana"
+  ],
+  "estado": {
+   "es": "Indicios",
+   "en": "Signs"
+  },
+  "desc_es": "Paso fronterizo con casos menores; sin decomisos grandes documentados",
+  "desc_en": "Border crossing with minor cases; no large seizures documented",
+  "declive": false,
+  "fuente": "Folha BV",
+  "url": "https://www.folhabv.com.br/tag/cocaina-2/"
+ },
+ {
+  "id": "R18",
+  "o_es": "Roraima",
+  "o_en": "Roraima",
+  "d_es": "Guyana y Surinam",
+  "d_en": "Guyana and Suriname",
+  "o_lat": 2.8,
+  "o_lon": -60.7,
+  "d_lat": 5,
+  "d_lon": -56.5,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Brasil",
+   "Guyana",
+   "Surinam",
+   "Venezuela"
+  ],
+  "estado": {
+   "es": "Activa",
+   "en": "Active"
+  },
+  "desc_es": "Red de avionetas desarticulada por la Operação 14 BIS",
+  "desc_en": "Small-plane network dismantled by Operation 14 BIS",
+  "declive": false,
+  "fuente": "Portal Norte",
+  "url": "https://portalnorte.com.br/noticias/roraima/2025/11/12/pf-prende-grupo-que-usava-avioes-para-trazer-drogas-ao-brasil/"
+ },
+ {
+  "id": "R19",
+  "o_es": "Norte de Colombia",
+  "o_en": "Northern Colombia",
+  "d_es": "Amapá (Brasil) vía Surinam",
+  "d_en": "Amapá (Brazil) via Suriname",
+  "o_lat": 10.5,
+  "o_lon": -73.5,
+  "d_lat": 0.5,
+  "d_lon": -51.5,
+  "modalidad": "Aéreo",
+  "paises": [
+   "Colombia",
+   "Surinam",
+   "Brasil"
+  ],
+  "estado": {
+   "es": "En aumento",
+   "en": "Rising"
+  },
+  "desc_es": "Cocaína enviada a Surinam en avionetas o lanchas y reenviada hacia Amapá",
+  "desc_en": "Cocaine sent to Suriname by small plane or go-fast and forwarded to Amapá",
+  "declive": false,
+  "fuente": "GI-TOC",
+  "url": "https://globalinitiative.net/wp-content/uploads/2026/09/Gabriel-Funari-Brazilian-Amazon-New-trafficking-corridors-and-expanding-criminal-control-GI-TOC-September-2026-1.pdf"
+ }
+]
