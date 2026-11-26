@@ -1,0 +1,9 @@
+{
+  // Sitio estático de NarcoWatch servido como Worker con archivos estáticos.
+  "name": "narcowatch-org",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}
