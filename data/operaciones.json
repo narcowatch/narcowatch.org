@@ -361,5 +361,31 @@
   "kg": 1382,
   "fuente": "Portal Norte",
   "url": "https://portalnorte.com.br/noticias/roraima/2025/11/12/pf-prende-grupo-que-usava-avioes-para-trazer-drogas-ao-brasil/"
+ },
+ {
+  "id": "R-o-20261126-caso-norte",
+  "fecha": "2026-11-24",
+  "orden": 1001,
+  "nombre_es": "Caso Norte (OIJ)",
+  "nombre_en": "Caso Norte (OIJ)",
+  "paises": [
+   "Costa Rica"
+  ],
+  "agencias_es": [
+   "OIJ",
+   "Ministerio Público de Costa Rica"
+  ],
+  "agencias_en": [
+   "OIJ (Judicial Investigation Agency)",
+   "Costa Rica Public Prosecutor's Office"
+  ],
+  "zona_es": "Los Chiles, Coto Brus, Corredores y Cartago; ruta del sur de Costa Rica por carretera a Los Chiles y a Nicaragua por pasos rurales",
+  "zona_en": "Los Chiles, Coto Brus, Corredores and Cartago; road route from southern Costa Rica to Los Chiles and into Nicaragua through rural crossings",
+  "modalidad": "Terrestre",
+  "res_es": "24 allanamientos y 12 detenidos, entre ellos una funcionaria judicial de Los Chiles; la red enviaba cocaína a Nicaragua y traía ketamina. Los medios no coinciden en el volumen movido (10 kg en total o 100 kg al mes); no se informa decomiso. Basado solo en resúmenes de prensa.",
+  "res_en": "24 raids and 12 arrests, including a court employee in Los Chiles; the network sent cocaine to Nicaragua and brought back ketamine. Media disagree on the volume moved (10 kg in total or 100 kg a month); no seizure reported. Based on press summaries only.",
+  "kg": null,
+  "fuente": "La Nación / Infobae / OIJ",
+  "url": "https://www.nacion.com/sucesos/caso-norte-banda-traia-de-nicaragua-ketamina/I2NQMVAO5RG4BP6RF52NV3YROU/story/"
  }
 ]

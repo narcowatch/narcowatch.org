@@ -178,5 +178,17 @@
   "desc_en": "Air Force intercepts an aircraft from Venezuela that landed on a river in Roraima (weight not published)",
   "fuente": "FAB",
   "url": "https://www.fab.mil.br/noticias/operacional/15485/2026/05/fab-intercepta-aeronave-oriunda-da-venezuela-que-transportava-drogas/"
+ },
+ {
+  "id": "R-c-20261126-orotina",
+  "fecha": "2026-11",
+  "pais": "Costa Rica",
+  "pais_en": "Costa Rica",
+  "modalidad": "Terrestre",
+  "kg": 410,
+  "desc_es": "El OIJ halla cocaína en un carro abandonado tras un choque en San Jerónimo de Orotina (Alajuela) el 23 de noviembre; se investiga un posible robo de droga entre bandas. CR Prensa reporta 410 kg y otros medios 412 (se usa la menor). Sin detenidos. Basado solo en resúmenes de prensa.",
+  "desc_en": "Costa Rica's OIJ finds cocaine in a car abandoned after a crash in San Jerónimo de Orotina (Alajuela) on 23 November; a possible theft of drugs between gangs is under investigation. CR Prensa reports 410 kg and other outlets 412 (the lower figure is used). No arrests. Based on press summaries only.",
+  "fuente": "CR Prensa / OIJ",
+  "url": "https://crprensa.com/2026/11/24/decomisan-410-kilos-de-aparente-cocaina-en-orotina/"
  }
 ]
