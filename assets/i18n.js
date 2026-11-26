@@ -63,8 +63,9 @@ window.NW_I18N = {
       'Los datos nuevos los propone a diario una búsqueda automática en fuentes abiertas y los revisa una persona antes de publicarlos.',
       'NarcoWatch es independiente y no tiene relación con observatorios oficiales como el Observatorio Interamericano sobre Drogas (OEA) o el Observatorio de Drogas de Colombia.'
     ],
+    privacy: 'Política de privacidad',
     foot1: 'Observatorio independiente, sin afiliación a ningún gobierno ni organismo oficial.',
-    foot2: 'La información proviene de fuentes abiertas citadas en cada dato. No publicamos datos personales de particulares. Mapa base: Natural Earth (dominio público). Gráficos: D3 (licencia ISC).',
+    foot2: 'La información proviene de fuentes abiertas citadas en cada dato. No publicamos datos personales de particulares. Mapa base: Natural Earth (dominio público). Gráficos: D3 (licencia ISC). Tipografías: IBM Plex y Fraunces (licencia OFL).',
     tt_trend: (p, a, ya, b, yb) => `${p}: ${a} t en ${ya} → ${b} t en ${yb}`,
     tt_strip: (p, y, n, part) => `${p} ${y}: ${n} pistas${part ? ' (ene–abr)' : ''}`,
   },
@@ -132,8 +133,9 @@ window.NW_I18N = {
       'New data is proposed daily by an automated open-source search and reviewed by a person before it is published.',
       'NarcoWatch is independent and has no relation to official observatories such as the OAS Inter-American Observatory on Drugs or the Colombian Drug Observatory.'
     ],
+    privacy: 'Privacy policy',
     foot1: 'Independent observatory, not affiliated with any government or official body.',
-    foot2: 'Information comes from open sources cited with each data point. We do not publish personal data about private individuals. Base map: Natural Earth (public domain). Charts: D3 (ISC licence).',
+    foot2: 'Information comes from open sources cited with each data point. We do not publish personal data about private individuals. Base map: Natural Earth (public domain). Charts: D3 (ISC licence). Fonts: IBM Plex and Fraunces (OFL licence).',
     tt_trend: (p, a, ya, b, yb) => `${p}: ${a} t in ${ya} → ${b} t in ${yb}`,
     tt_strip: (p, y, n, part) => `${p} ${y}: ${n} airstrips${part ? ' (Jan–Apr)' : ''}`,
   }

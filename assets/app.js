@@ -39,6 +39,7 @@
     document.querySelectorAll('[data-i18n]').forEach((n) => { const v = t(n.getAttribute('data-i18n')); if (typeof v === 'string') n.textContent = v; });
     document.querySelectorAll('[data-i18n-html]').forEach((n) => { const v = t(n.getAttribute('data-i18n-html')); if (typeof v === 'string') n.innerHTML = v; }); // trusted strings from i18n.js only
     document.querySelectorAll('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === state.lang)));
+    const lp = $('#link-privacy'); if (lp) lp.href = 'privacidad.html#' + state.lang;
     const m = $('#method'); m.replaceChildren(...t('method').map((x) => el('li', null, x)));
   }
 
