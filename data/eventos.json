@@ -190,5 +190,53 @@
   "desc_en": "Costa Rica's OIJ finds cocaine in a car abandoned after a crash in San Jerónimo de Orotina (Alajuela) on 23 November; a possible theft of drugs between gangs is under investigation. CR Prensa reports 410 kg and other outlets 412 (the lower figure is used). No arrests. Based on press summaries only.",
   "fuente": "CR Prensa / OIJ",
   "url": "https://crprensa.com/2026/11/24/decomisan-410-kilos-de-aparente-cocaina-en-orotina/"
+ },
+ {
+  "id": "R-6kqtw19sd46c9coryj3p",
+  "fecha": "2026-11",
+  "pais": "Panamá",
+  "pais_en": "Panama",
+  "modalidad": "Marítimo",
+  "kg": null,
+  "desc_es": "El SENAN halla 600 paquetes de presunta droga en un contenedor en una terminal portuaria de Colón, procedente de Guayaquil y con destino a Londres. La fuente no precisa el tipo de droga ni el peso. Basado solo en resúmenes de prensa.",
+  "desc_en": "Panama's SENAN finds 600 packages of suspected drugs in a container at a port terminal in Colón, shipped from Guayaquil and bound for London. The source does not specify the type of drug or the weight. Based on press summaries only.",
+  "fuente": "Info7 / SENAN",
+  "url": "https://www.info7.mx/internacional/incauta-senan-600-paquetes-de-droga-en-puerto-de-panama/7721873145"
+ },
+ {
+  "id": "R-grm5lhg3l3foh1oarrk7",
+  "fecha": "2026-11",
+  "pais": "Honduras",
+  "pais_en": "Honduras",
+  "modalidad": "Terrestre",
+  "kg": 557,
+  "desc_es": "La Policía y la FESCCO, con apoyo de la DEA, hallan cocaína oculta en un camión en una finca de Planes de Hicaque, Tela (Atlántida). La Policía informó 582 paquetes y la DEA 557 kg (se usa la cifra menor). Basado solo en resúmenes de prensa.",
+  "desc_en": "Honduran Police and FESCCO prosecutors, supported by the DEA, find cocaine hidden in a truck on a farm in Planes de Hicaque, Tela (Atlántida). Police reported 582 packages and the DEA 557 kg (the lower figure is used). Based on press summaries only.",
+  "fuente": "Once Noticias / Policía de Honduras",
+  "url": "https://oncenoticias.hn/nacionales/dea-destaca-decomiso-557-kilos-cocina-atlantida/"
+ },
+ {
+  "id": "R-wuffb0ohqww2crkugm19",
+  "fecha": "2026-11",
+  "pais": "Costa Rica",
+  "pais_en": "Costa Rica",
+  "modalidad": "Terrestre",
+  "kg": 100,
+  "desc_es": "La Fuerza Pública decomisa unos 100 kg de cocaína en un vehículo durante un control de carretera en La Cruz, Guanacaste, cerca de la frontera con Nicaragua. Cifra aproximada según la nota. Basado solo en el titular y el resumen.",
+  "desc_en": "Costa Rica's Fuerza Pública seizes about 100 kg of cocaine from a vehicle at a road checkpoint in La Cruz, Guanacaste, near the Nicaraguan border. Approximate figure according to the report. Based on the headline and summary only.",
+  "fuente": "Infobae",
+  "url": "https://infobae.com/costa-rica/2026/11/25/conductor-se-puso-nervioso-en-control-policial-y-termino-detenido-con-100-kilos-de-cocaina-en-costa-rica"
+ },
+ {
+  "id": "R-xnw25u3zjluxfdy4zrg8",
+  "fecha": "2026-11",
+  "pais": "Costa Rica",
+  "pais_en": "Costa Rica",
+  "modalidad": "Marítimo",
+  "kg": 550,
+  "desc_es": "Autoridades de Costa Rica decomisan 550 kg de cocaína en dos operativos marítimos, con 8 detenidos; un resumen menciona el Pacífico Sur y el apoyo de un avión de EE.UU. Basado solo en el titular; lugar exacto sin confirmar.",
+  "desc_en": "Costa Rican authorities seize 550 kg of cocaine in two maritime operations, with 8 people detained; one summary mentions the South Pacific and support from a US aircraft. Based on the headline only; exact location unconfirmed.",
+  "fuente": "CR Prensa",
+  "url": "https://crprensa.com/2026/11/23/costa-rica-decomisa-550-kilos-de-cocaina-en-dos-operativos-maritimos-y-detiene-a-ocho-personas/"
  }
 ]
